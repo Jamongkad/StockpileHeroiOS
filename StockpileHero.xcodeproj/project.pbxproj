@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCC529E1D9541BD00691207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC529D1D9541BD00691207 /* AppDelegate.swift */; };
+		AFCC52A01D9541BD00691207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC529F1D9541BD00691207 /* ViewController.swift */; };
+		AFCC52A31D9541BD00691207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCC52A11D9541BD00691207 /* Main.storyboard */; };
+		AFCC52A51D9541BD00691207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCC52A41D9541BD00691207 /* Assets.xcassets */; };
+		AFCC52A81D9541BD00691207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCC52A61D9541BD00691207 /* LaunchScreen.storyboard */; };
+		AFCC52B31D9541BD00691207 /* StockpileHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC52B21D9541BD00691207 /* StockpileHeroTests.swift */; };
+		AFCC52BE1D9541BD00691207 /* StockpileHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC52BD1D9541BD00691207 /* StockpileHeroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCC52AF1D9541BD00691207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCC52921D9541BC00691207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCC52991D9541BC00691207;
+			remoteInfo = StockpileHero;
+		};
+		AFCC52BA1D9541BD00691207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCC52921D9541BC00691207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCC52991D9541BC00691207;
+			remoteInfo = StockpileHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFCC529A1D9541BD00691207 /* StockpileHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockpileHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCC529D1D9541BD00691207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFCC529F1D9541BD00691207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFCC52A21D9541BD00691207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFCC52A41D9541BD00691207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCC52A71D9541BD00691207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFCC52A91D9541BD00691207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCC52AE1D9541BD00691207 /* StockpileHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockpileHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCC52B21D9541BD00691207 /* StockpileHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockpileHeroTests.swift; sourceTree = "<group>"; };
+		AFCC52B41D9541BD00691207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCC52B91D9541BD00691207 /* StockpileHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockpileHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCC52BD1D9541BD00691207 /* StockpileHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockpileHeroUITests.swift; sourceTree = "<group>"; };
+		AFCC52BF1D9541BD00691207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCC52971D9541BC00691207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52AB1D9541BD00691207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52B61D9541BD00691207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCC52911D9541BC00691207 = {
+			isa = PBXGroup;
+			children = (
+				AFCC529C1D9541BD00691207 /* StockpileHero */,
+				AFCC52B11D9541BD00691207 /* StockpileHeroTests */,
+				AFCC52BC1D9541BD00691207 /* StockpileHeroUITests */,
+				AFCC529B1D9541BD00691207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCC529B1D9541BD00691207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC529A1D9541BD00691207 /* StockpileHero.app */,
+				AFCC52AE1D9541BD00691207 /* StockpileHeroTests.xctest */,
+				AFCC52B91D9541BD00691207 /* StockpileHeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCC529C1D9541BD00691207 /* StockpileHero */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC529D1D9541BD00691207 /* AppDelegate.swift */,
+				AFCC529F1D9541BD00691207 /* ViewController.swift */,
+				AFCC52A11D9541BD00691207 /* Main.storyboard */,
+				AFCC52A41D9541BD00691207 /* Assets.xcassets */,
+				AFCC52A61D9541BD00691207 /* LaunchScreen.storyboard */,
+				AFCC52A91D9541BD00691207 /* Info.plist */,
+			);
+			path = StockpileHero;
+			sourceTree = "<group>";
+		};
+		AFCC52B11D9541BD00691207 /* StockpileHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC52B21D9541BD00691207 /* StockpileHeroTests.swift */,
+				AFCC52B41D9541BD00691207 /* Info.plist */,
+			);
+			path = StockpileHeroTests;
+			sourceTree = "<group>";
+		};
+		AFCC52BC1D9541BD00691207 /* StockpileHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCC52BD1D9541BD00691207 /* StockpileHeroUITests.swift */,
+				AFCC52BF1D9541BD00691207 /* Info.plist */,
+			);
+			path = StockpileHeroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCC52991D9541BC00691207 /* StockpileHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCC52C21D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHero" */;
+			buildPhases = (
+				AFCC52961D9541BC00691207 /* Sources */,
+				AFCC52971D9541BC00691207 /* Frameworks */,
+				AFCC52981D9541BC00691207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockpileHero;
+			productName = StockpileHero;
+			productReference = AFCC529A1D9541BD00691207 /* StockpileHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFCC52AD1D9541BD00691207 /* StockpileHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCC52C51D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHeroTests" */;
+			buildPhases = (
+				AFCC52AA1D9541BD00691207 /* Sources */,
+				AFCC52AB1D9541BD00691207 /* Frameworks */,
+				AFCC52AC1D9541BD00691207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCC52B01D9541BD00691207 /* PBXTargetDependency */,
+			);
+			name = StockpileHeroTests;
+			productName = StockpileHeroTests;
+			productReference = AFCC52AE1D9541BD00691207 /* StockpileHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFCC52B81D9541BD00691207 /* StockpileHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCC52C81D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHeroUITests" */;
+			buildPhases = (
+				AFCC52B51D9541BD00691207 /* Sources */,
+				AFCC52B61D9541BD00691207 /* Frameworks */,
+				AFCC52B71D9541BD00691207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCC52BB1D9541BD00691207 /* PBXTargetDependency */,
+			);
+			name = StockpileHeroUITests;
+			productName = StockpileHeroUITests;
+			productReference = AFCC52B91D9541BD00691207 /* StockpileHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCC52921D9541BC00691207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YidgetSoft;
+				TargetAttributes = {
+					AFCC52991D9541BC00691207 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZQNCPBUJ3M;
+						ProvisioningStyle = Automatic;
+					};
+					AFCC52AD1D9541BD00691207 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZQNCPBUJ3M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFCC52991D9541BC00691207;
+					};
+					AFCC52B81D9541BD00691207 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZQNCPBUJ3M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFCC52991D9541BC00691207;
+					};
+				};
+			};
+			buildConfigurationList = AFCC52951D9541BC00691207 /* Build configuration list for PBXProject "StockpileHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCC52911D9541BC00691207;
+			productRefGroup = AFCC529B1D9541BD00691207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCC52991D9541BC00691207 /* StockpileHero */,
+				AFCC52AD1D9541BD00691207 /* StockpileHeroTests */,
+				AFCC52B81D9541BD00691207 /* StockpileHeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCC52981D9541BC00691207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC52A81D9541BD00691207 /* LaunchScreen.storyboard in Resources */,
+				AFCC52A51D9541BD00691207 /* Assets.xcassets in Resources */,
+				AFCC52A31D9541BD00691207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52AC1D9541BD00691207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52B71D9541BD00691207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCC52961D9541BC00691207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC52A01D9541BD00691207 /* ViewController.swift in Sources */,
+				AFCC529E1D9541BD00691207 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52AA1D9541BD00691207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC52B31D9541BD00691207 /* StockpileHeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCC52B51D9541BD00691207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCC52BE1D9541BD00691207 /* StockpileHeroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCC52B01D9541BD00691207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCC52991D9541BC00691207 /* StockpileHero */;
+			targetProxy = AFCC52AF1D9541BD00691207 /* PBXContainerItemProxy */;
+		};
+		AFCC52BB1D9541BD00691207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCC52991D9541BC00691207 /* StockpileHero */;
+			targetProxy = AFCC52BA1D9541BD00691207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFCC52A11D9541BD00691207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCC52A21D9541BD00691207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFCC52A61D9541BD00691207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCC52A71D9541BD00691207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCC52C01D9541BD00691207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFCC52C11D9541BD00691207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCC52C31D9541BD00691207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFCC52C41D9541BD00691207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFCC52C61D9541BD00691207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockpileHero.app/StockpileHero";
+			};
+			name = Debug;
+		};
+		AFCC52C71D9541BD00691207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockpileHero.app/StockpileHero";
+			};
+			name = Release;
+		};
+		AFCC52C91D9541BD00691207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StockpileHero;
+			};
+			name = Debug;
+		};
+		AFCC52CA1D9541BD00691207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZQNCPBUJ3M;
+				INFOPLIST_FILE = StockpileHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YidgetSoft.StockpileHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StockpileHero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCC52951D9541BC00691207 /* Build configuration list for PBXProject "StockpileHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC52C01D9541BD00691207 /* Debug */,
+				AFCC52C11D9541BD00691207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCC52C21D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC52C31D9541BD00691207 /* Debug */,
+				AFCC52C41D9541BD00691207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFCC52C51D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC52C61D9541BD00691207 /* Debug */,
+				AFCC52C71D9541BD00691207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFCC52C81D9541BD00691207 /* Build configuration list for PBXNativeTarget "StockpileHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCC52C91D9541BD00691207 /* Debug */,
+				AFCC52CA1D9541BD00691207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCC52921D9541BC00691207 /* Project object */;
+}
