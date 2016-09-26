@@ -1,0 +1,6 @@
+framework module Pods_StockpileHeroUITests {
+  umbrella header "Pods-StockpileHeroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

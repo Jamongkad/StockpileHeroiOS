@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.0.0)
+  - CameraManager (3.0.0)
+  - DynamicColor (3.1.0)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+  - SnapKit (3.0.1)
+  - SwiftyJSON (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CameraManager (~> 3.0)
+  - DynamicColor (~> 3.1.0)
+  - RealmSwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  CameraManager: 8b92bc0ab51b598d9a4c01998bc9f1efb9b681bf
+  DynamicColor: 4dec283a881f7f9d9f3bc88fb5f306724242575f
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+  SnapKit: f818b8326d45b4e1c777d0ab27b5c0a3624bfdeb
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+
+PODFILE CHECKSUM: af901ec81eb4a709a8ffffbbe7563ae66400d75b
+
+COCOAPODS: 1.1.0.rc.2
